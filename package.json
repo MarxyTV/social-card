@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng deploy --base-href=social-card"
+    "deploy": "ng deploy --base-href=social-card --cname=card.marxy.net"
   },
   "private": true,
   "dependencies": {

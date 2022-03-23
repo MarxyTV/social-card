@@ -7,10 +7,21 @@
 
 .myCard {
     border-radius: 16px;
-    width: 33%;
     border: 4px solid black;
     background-color: #0000004f;
     color: white;
+    width: 80%;
+}
+
+@media (min-width: 992px) {
+    .myCard {
+        width: 40%;
+    }
+    
+}
+
+.myProfile {
+    width: 75%;
 }
 
 #bgElement {
