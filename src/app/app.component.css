@@ -1,0 +1,37 @@
+
+.pill {
+    border-radius: 16px;
+    background-color: #000000aa;
+    border: 2px solid black;
+}
+
+.myCard {
+    border-radius: 16px;
+    width: 33%;
+    border: 4px solid black;
+    background-color: #0000004f;
+    color: white;
+}
+
+#bgElement {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+        -45deg, 
+        rgba(59,173,227,1) 0%, 
+        rgba(87,111,230,1) 25%, 
+        rgb(161, 97, 184) 51%, 
+        rgb(255, 110, 163) 100%
+  );  
+  animation: AnimateBG 20s ease infinite;
+}
+
+@keyframes AnimateBG { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
