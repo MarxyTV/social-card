@@ -2,9 +2,9 @@
   <div class="card mx-auto my-auto myCard">
     <div class="card-body text-center d-flex flex-column justify-content-center">
       <img src="assets/web_logo.png" class="myProfile rounded-circle mx-auto"/>
-      <h1 class="mb-5">Marxy</h1>
-      <a *ngFor="let social of socials" class="btn btn-primary my-3 mx-5 pill" href="{{social.url}}">
-        {{social.title}}
+      <h1 class="mb-5">{{ username }}</h1>
+      <a *ngFor="let social of socials" class="btn btn-primary my-3 mx-5 pill" href="{{ social.url }}">
+        {{ social.title }}
       </a>
       <div class="mb-4"></div>
     </div>
