@@ -19,6 +19,10 @@ export class AppComponent {
     {
       title: 'Youtube',
       url: 'https://youtube.com/channel/UCKp9j5Vz3SBgGhZJLC5cpOg'
+    },
+    {
+      title: 'Discord',
+      url: 'https://discord.gg/vUGNKRKRaw'
     }
   ];
 }
