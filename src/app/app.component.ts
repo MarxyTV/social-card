@@ -22,7 +22,7 @@ export class AppComponent {
     },
     {
       title: 'Discord',
-      url: 'https://discord.gg/vUGNKRKRaw'
+      url: 'https://discord.gg/NztSVR8TmT'
     }
   ];
 }
